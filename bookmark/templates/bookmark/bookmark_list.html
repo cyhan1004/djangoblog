@@ -5,7 +5,11 @@
 </head>
 
 <body>
+{% extends 'base.html' %}
 
+{% block title %}Django Bookmark List{% endblock %}
+
+{% block content %}
 <div id="content">
 	<h1>Bookmark List</h1>
 
@@ -17,5 +21,6 @@
 
 </div>
 
+{% endblock %}
 </body>
 </html>
