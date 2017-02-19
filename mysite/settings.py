@@ -40,7 +40,12 @@ INSTALLED_APPS = [
     'bookmark',
     'blog.apps.BlogConfig',
     'tagging.apps.TaggingConfig',
+    'disqus',
+    'django.contrib.sites',
 ]
+
+DISQUS_WEBSITE_SHORTNAME = 'chaeyeon0203'
+SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
